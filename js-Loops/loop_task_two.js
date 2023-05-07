@@ -239,7 +239,7 @@ function createMeals(unmOfMeals) {
     arrays.push([]);
 
     for (let c = 0; c < 5; c++) {
-      let random = Math.floor(Math.random() * 5);
+      let random = Math.floor(Math.random() * 6);
       arrays[r].push(arrMeals[c][random]);
     }
   }
